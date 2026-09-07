@@ -1,1 +1,0 @@
-# StyleSense---Sense-of-Style-
