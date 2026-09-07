@@ -1,0 +1,21 @@
+{
+  "include": [
+    "backend",
+    "scripts"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "backend/.venv",
+    ".venv"
+  ],
+  "extraPaths": [
+    "backend",
+    "backend/app"
+  ],
+  "venvPath": "backend",
+  "venv": ".venv",
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false
+}

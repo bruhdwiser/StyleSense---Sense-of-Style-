@@ -1,0 +1,82 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+backend/**/__pycache__/
+backend/.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+*.env
+*.env.*
+!.env.example
+.secret*
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa*
+secrets/
+
+# Database files & caches
+*.sqlite3
+*.db
+*.db-journal
+*.rdb
+dump.rdb
+
+# Datasets and raw / staging data
+datasets/
+data/
+*.parquet
+*.csv
+*.tsv
+*.jsonl
+
+# Media / Model Weights
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.weights
+
+# Logs
+*.log
+logs/
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+node_modules/
